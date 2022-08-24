@@ -1,0 +1,48 @@
+button{    
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 0px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 5px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    cursor: pointer;
+    height: 25px;
+    width: 25px;
+    color: red;
+    font-weight: bold;
+}
+
+.transactions{ 
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 0px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 5px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+ul{
+    width: 240px;
+}
+
+.transactions li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding: 10px;
+    /* background: rgba(255, 255, 255, 0.25); */
+    /* box-shadow: 0 8px 0px 0 rgba( 31, 38, 135, 0.37 ); */
+    /* backdrop-filter: blur( 4px ); */
+    /* -webkit-backdrop-filter: blur( 4px ); */
+    border-radius: 5px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    margin-left: -40px;
+    width: 260px;
+    transition: 1s;
+    border: none;
+  }
+
+button:hover{    
+    background: white;
+}
+

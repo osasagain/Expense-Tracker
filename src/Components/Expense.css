@@ -1,0 +1,76 @@
+h2{
+    color: white;
+    font-family: arial;
+}
+
+.balance-val {
+    width: 265px !important;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 30px;
+    letter-spacing: 1px;
+    padding: 5px;
+    color: white;
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 0px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 8px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 ); 
+  }
+
+   .row {
+    display:flex;
+    flex-direction: row;
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px ); 
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+  }
+   
+  .col {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    font-size: large;
+    padding: 10px 0px 15px 0px;
+  }
+
+
+  .row-expense {
+    margin-top: 30px;
+  }
+  
+  .col-income, .col-expense {
+    /* padding: 20px; */
+    width: 140px!important;
+    /* height: 70px; */
+    /* padding-top: 15px; */
+    border-radius: 10px 0px 0px 10px;
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 0px 0 rgba( 31, 38, 135, 0.37 );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    border: none;    
+  }
+  
+  .col-expense {
+    border-radius: 0px 10px 10px 0px;
+  }
+  
+  .col-income span {
+    display: inline-block;
+    border-right: 1px solid white;
+    /* padding-right: 30px; */
+    }
+
+  
+  .expense-text, .income-text {
+    color: white;
+    font-weight: bold;
+    letter-spacing: 1px;
+  }
+  
+  

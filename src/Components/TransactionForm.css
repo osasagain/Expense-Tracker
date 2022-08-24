@@ -1,0 +1,46 @@
+input{
+    width: 250px;
+    height: 20px;
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 0px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 5px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    padding: 5px 15px 5px 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: white;
+    font-size: 18px;
+    outline: none;
+}
+
+
+label{
+    color: white;
+    font-weight: bold;
+}
+
+.incomeBtn, .expenseBtn{
+    width: 120px;
+    height: 30PX;
+    margin: 10px 10px 10px 10px;
+    background-color: rgb(218, 218, 219); 
+    color: black;
+    font-weight: bold;
+    font-size: small;
+}
+
+.expenseBtn:hover{
+    background: rgba( 255, 255, 255, 0.25 );
+    color: white;
+    border: 2.5px solid #ccc;
+    transition: 1s;
+}
+
+.incomeBtn:hover{
+    background-color:rgba( 255, 255, 255, 0.25 );
+    border: 2.5px solid #ccc;
+    transition: 1s;
+    color: white;
+}
